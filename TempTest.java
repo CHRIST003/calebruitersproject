@@ -10,13 +10,14 @@ public class TempTest {
     @Test
     public void runCelsiusTemp()
     {
-        Assert.assertEquals(32, temp.toCelsius(0));
+        Assert.assertEquals(32, temp.toCelsius(1));
     }
 
     @Test
     public void runFahrenheitTemp()
     {
         Assert.assertEquals(0, temp.toFahrenheit(32));
+        System.out.print("edited");
     }
 
 }
